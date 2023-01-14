@@ -1,0 +1,239 @@
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+
+/* Common Styles or Utilities */
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h3 {
+    font-size: 45px;
+}
+
+p {
+    padding: 35px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    line-height: 26px;
+}
+
+button {
+    width: 180px;
+    height: 64px;
+    left: 870px;
+    top: 463px;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 0px 630px 50px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #FF900E;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* Header Style */
+
+.header {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* Header Top Style */
+
+.header-top {
+    padding: 50px 228px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    padding-top: 13px;
+}
+
+ul li {
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 50px;
+    list-style-type: none;
+}
+
+/* Banner Style */
+
+.banner {
+    padding: 100px 240px 45px;
+}
+
+.header-title {
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.header-description {
+    text-align: center;
+}
+
+/* Team Style */
+
+.team-container {
+    padding: 200px 0;
+}
+
+.team {
+    gap: 73px;
+    display: flex;
+    padding: 85px 300px 130px;
+}
+
+.team-imges {
+    gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.team-btn {
+    margin: 0;
+}
+
+/* Love & enjoy Style */
+
+.love-and-enjoy {
+    gap: 146px;
+    display: flex;
+    padding: 0 240px 130px;
+}
+
+.love-and-enjoy-title{
+    padding-left: 20px;
+    border-left: 5px solid #FF900E;
+}
+
+.details {
+    width: 586px;
+    height: 171px;
+    left: 240px;
+    top: 2713px;
+    background-color: #FFFFFF;
+    box-shadow: #424242;
+    border-radius: 8px;
+    border: 0;
+}
+
+.details-title {
+    color: #131313;
+}
+
+.architect-btn {
+    width: 342px;
+    height: 200px;
+    left: 922px;
+    top: 3150px;
+    margin: 0;
+    font-size: 65px;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+    font-size: 65px;
+    position: absolute;
+    line-height: 45px;
+}
+
+span{
+    margin: 0;
+    width: 0;
+    height: 0px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* Fact Style */
+
+.fact-details{
+    padding: 130px 1120px 0 240px;
+}
+
+.container{
+    gap: 125px;
+    display: flex;
+    justify-content: center;
+    padding: 100px 290px 180px;
+    /* transform: rotate(90deg); */
+}
+
+.item{
+    height: 242px;
+    width: 242px;
+    text-align: center;
+    /* padding: 45px 36px 6px ; */
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+
+.item img{
+    height: 50x;
+    width: 50px;
+    margin-top: 45px;
+}
+
+.item-title{
+    color: #424242;
+    margin-top: 10px;
+}
+
+.item-description {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0;
+}
+
+/* Sponspors Style */
+
+.sponspors-details{
+    padding: 0 680px;
+}
+
+.sponspors-title{
+    text-align: center;
+}
+
+.sponspors-description{
+    text-align: center;
+}
+
+.sponspors-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 240px 130px;
+}
+
+/* Footer Style */
+
+.footer{
+    padding: 0 240px 216px;
+}
+
+.footer-text{
+    border-radius: 8px;
+    background-color: #FFF4E7;
+}
+
+.footer-description{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
