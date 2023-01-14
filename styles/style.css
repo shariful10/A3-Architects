@@ -90,14 +90,15 @@ ul li {
 
 /* Team Style */
 
-.team-container {
-    padding: 200px 0;
-}
-
 .team {
     gap: 73px;
     display: flex;
     padding: 85px 300px 130px;
+    background-color: rgb(250, 250, 250);
+}
+
+.team-container {
+    padding: 200px 0;
 }
 
 .team-imges {
@@ -116,6 +117,7 @@ ul li {
     gap: 146px;
     display: flex;
     padding: 0 240px 130px;
+    background-color: rgb(250, 250, 250);
 }
 
 .love-and-enjoy-title{
@@ -128,10 +130,10 @@ ul li {
     height: 171px;
     left: 240px;
     top: 2713px;
-    background-color: #FFFFFF;
-    box-shadow: #424242;
+    margin-bottom: 20px;
+    padding: 30px 42px 30px 30px;
     border-radius: 8px;
-    border: 0;
+    background-color: #FFFFFF;
 }
 
 .details-title {
@@ -163,6 +165,10 @@ span{
 
 /* Fact Style */
 
+.fact{
+    background-color: rgb(250, 250, 250);
+}
+
 .fact-details{
     padding: 130px 1120px 0 240px;
 }
@@ -179,7 +185,7 @@ span{
     height: 242px;
     width: 242px;
     text-align: center;
-    /* padding: 45px 36px 6px ; */
+    box-sizing: border-box;
     border: 1px solid #FF900E;
     border-radius: 8px;
 }
@@ -203,6 +209,10 @@ span{
 
 /* Sponspors Style */
 
+.sponspors{
+    background-color: rgb(250, 250, 250);
+}
+
 .sponspors-details{
     padding: 0 680px;
 }
@@ -225,6 +235,7 @@ span{
 
 .footer{
     padding: 0 240px 216px;
+    background-color: rgb(250, 250, 250);
 }
 
 .footer-text{
