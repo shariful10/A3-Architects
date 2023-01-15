@@ -333,7 +333,7 @@ textarea {
     }
 
     .header-btn{
-        margin: 0px 97px 50px;
+        margin: 0 0 50px;
     }
 
     .banner img {
@@ -345,11 +345,38 @@ textarea {
     .team {
         /* display: flex; */
         flex-direction: column;
+        padding: 50px 20px 130px;
     }
 
     .team-imges {
         flex-direction: column;
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .team-imges img{
+        width: 100%;
+    }
+
+    .team-container {
+        padding: 0;
+    }
+
+    /* Love & Enjoy Responsive */
+
+    .love-and-enjoy {
+        gap: 0;
+        flex-direction: column-reverse;
+        padding: 0 20px 50px;
+    }
+
+    .architect img {
+        width: 100%;
+    }
+
+    .architect-btn{
+        margin-top: 20px;
+        position: static;
+        margin-left: 15px;
     }
 }    
