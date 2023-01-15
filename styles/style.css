@@ -370,6 +370,11 @@ textarea {
         padding: 0 20px 50px;
     }
 
+    .details{
+        width: 350px;
+        padding: 20px 10px 20px;
+    }
+
     .architect img {
         width: 100%;
     }
@@ -377,7 +382,7 @@ textarea {
     .architect-btn{
         margin-top: 20px;
         position: static;
-        margin-left: 15px;
+        margin-left: 10px;
     }
 
     /* Fact Responsive */
