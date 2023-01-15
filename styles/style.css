@@ -302,3 +302,54 @@ textarea {
     font-weight: 400;
     text-align: center;
 }
+
+/* Responsive Style */
+
+@media screen and (max-width: 576px) {
+
+    /* Header Responsive */
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-top {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 20px 0;
+    }
+
+    .banner {
+        padding: 50px 20px 45px;
+    }
+
+    .header-title {
+        text-align: left;
+    }
+
+    .header-description{
+        text-align: left;
+    }
+
+    .header-btn{
+        margin: 0px 97px 50px;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    /* Header Responsive */
+
+    .team {
+        /* display: flex; */
+        flex-direction: column;
+    }
+
+    .team-imges {
+        flex-direction: column;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}    
