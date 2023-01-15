@@ -379,4 +379,20 @@ textarea {
         position: static;
         margin-left: 15px;
     }
+
+    /* Fact Responsive */
+
+    .fact-details {
+        padding: 50px 20px 50px;
+    }
+
+    .container{
+        gap: 50px;
+        padding: 0px 20px 50px;
+        flex-direction: column;
+    }
+
+    .item{
+        width: 360px;
+    }
 }    
